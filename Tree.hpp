@@ -490,6 +490,7 @@ void Tree::insertFixUp(Node* z) {
             }   
         }
     }
+    root->color = Color::Black;
 }
 
 Tree::Node* Tree::search(Node* node, int key) {
